@@ -368,19 +368,19 @@
 						</td>
 					</tr>
 					<tr style="height: 40px">
-						<td align="center" width="30%">
+						<td align="center" width="20%">
 							<font face="Arial" color="white"class="font">Cliente</font>
 						</td>
-						<td align="center" width="30%">
+						<td align="center" width="20%">
 							<font face="Arial" color="white" class="font">Data</font>
 						</td>
-						<td align="center" width="30%">
+						<td align="center" width="20%">
 							<font face="Arial" color="white" class="font">Corte</font>	
 						</td>
-						<td align="center" width="30%">
+						<td align="center" width="20%">
 							<font face="Arial" color="white" class="font">Valor</font>	
 						</td>
-						<td align="center" width="30%">
+						<td align="center" width="20%">
 							<font face="Arial" color="white" class="font">Excluir</font>
 						</td>
 					</tr>
