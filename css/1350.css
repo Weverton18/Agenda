@@ -1,0 +1,33 @@
+.Tabela1{
+    margin-top: 20px;
+    margin-left: 350px;
+	width: 50%;
+}
+#div5{
+	width: 60%;
+	height: 500px;
+	padding-left: 270px;
+}
+
+.input2{
+	width: 250px;
+}
+
+.titulo{
+	font-size: 22px;
+}
+
+.font{
+	font-size: 17px;
+}
+
+.excluir{
+	width: 10%;
+}
+.div1{
+	position: absolute;
+	left: 80%;
+}
+#ul-menu{
+	width: 200%;
+}

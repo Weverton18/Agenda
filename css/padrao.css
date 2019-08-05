@@ -1,0 +1,107 @@
+body{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+table{
+	border: 0;
+	border-collapse: collapse;
+	background-color: #263238;
+		
+}
+
+tbody td{
+	padding: 5px 5px 20px 5px;
+	line-height: 18px;
+	font-variant-position: left;
+}
+
+#div5{
+	overflow: auto;
+	width: 60%;
+	height: 500px;
+	padding-left: 350px;
+}
+
+.Tabela1{
+	margin-top: 20px;
+	margin-left: 500px;
+	width: 40%;
+}
+
+.Tabela1 tbody td{
+	text-align: center;
+}
+
+.input1{
+	cursor: pointer;
+}
+
+.input2{
+	width: 250px;
+	text-align: center;
+}
+
+.titulo{
+	font-size: 25px;
+	color: white;
+}
+
+.font{
+	font-size: 20px;
+}
+
+.select{
+	width: 100px;
+}
+
+.DH{
+	width: 100px;
+	text-align: center;
+}
+
+.BOTAO{
+	border-radius: 6px;
+	cursor: pointer; 
+	padding: 0,5px 5px;
+	border: 1px solid #0277bd;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.tooltip{
+	  position: relative;
+	  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  	visibility: hidden;
+  	width: 200px;
+  	height: 25px;
+ 	background-color: #607d8b;
+  	color: white;
+  	text-align: center;
+  	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+		visibility: visible;
+}
+
+.tooltip .tooltiptext2 {
+			  visibility: hidden;
+			  width: 200px;
+			  height: 40px;
+			  background-color: #607d8b;
+			  color: white;
+			  text-align: center;
+			  border-radius: 6px;
+			  position: absolute;
+			  z-index: 1;
+			}
+		.tooltip:hover .tooltiptext2 {
+  			  visibility: visible;
+			}	

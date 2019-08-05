@@ -1,0 +1,42 @@
+.Tabela1{
+    margin-top: auto;
+    margin-left: 250px;
+	width: 50%;
+}
+#div5{
+	width: 80%;
+	height: 500px;
+	padding-left: 80px;
+}
+
+.input2{
+	width: 225px;
+}
+
+.titulo{
+	font-size: 22px;
+}
+
+.font{
+	font-size: 17px;
+}
+
+.select{
+	width: 90px;
+}
+
+.DH{
+	width: 90px;
+	text-align: center;
+}
+
+.excluir{
+	width: 10%;
+}
+.div1{
+	position: absolute;
+	left: 80%;
+}
+#ul-menu{
+	width: 200%;
+}
