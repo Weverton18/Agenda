@@ -336,7 +336,7 @@
 			</tbody>
 			<tfoot>
 				<tr>
-					<td id="botão" align="center" colspan="2"> 
+					<td id="botão" align="center" colspan="2" class="submits"> 
 						<?php
 							if ($IDA == "")
 							{
@@ -439,7 +439,7 @@
 				</tbody>
 				<tfoot>
 					<tr>
-						<td colspan="5" align="center">
+						<td colspan="5" align="center" class="submits">
 							<div class="tooltip">
 								<Input type="Submit" id="del" value="Apagar Tudo" style="cursor: pointer; background-color:red; border-color: red; color: white">
 								<span class="tooltiptext2">Todos os Horarios serão excluidos</span>

@@ -28,6 +28,7 @@ tbody td{
 	margin-top: 20px;
 	margin-left: 500px;
 	width: 40%;
+	border-radius: 10px;
 }
 
 .Tabela1 tbody td{
@@ -71,6 +72,10 @@ tbody td{
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
+}
+
+td .submits{
+	padding: 10px 5px 10px 5px;
 }
 
 .tooltip{
