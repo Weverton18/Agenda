@@ -4,6 +4,7 @@
 
 	if($_SESSION['usuario'] == ''){
 		header('location: index.php');
+		exit;
 	}
 	
 	$usuario = $_SESSION['usuario'];
