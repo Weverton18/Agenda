@@ -4,6 +4,7 @@
 
 	if($_SESSION['usuario'] == ''){
 		header('location: index.php');
+		exit;
 	}
 	
 	$usuario = $_SESSION['usuario'];
@@ -15,16 +16,14 @@
 	if($Action == 'salvar')
 	{	
 		try {
-		$sql = "insert into cliente (login, Nome, Apelido, Telefone) values ( ?,?,?,? )";
-		$stmt = $conn->prepare($sql);
-		 $stmt->execute(array(
-		    $usuario, $nome, $apelido, $Tel
-		  ));
-		header('location: BetaCliente1.php');
-
-		 } catch(PDOException $e) {
-				echo 'Error: ' . $e->getMessage();
-			}
+			$sql = "INSERT INTO cliente (login, Nome, Apelido, Telefone) values ( ?,?,?,? )";
+			$stmt = $conn->prepare($sql);
+			$stmt->execute(array($usuario, $nome, $apelido, $Tel));
+			header('location: BetaCliente1.php');
+			exit;
+		} catch(PDOException $e) {
+			echo 'Error: ' . $e->getMessage();
+		}
 	}
 	else
 	if ($Action == 'editar')
